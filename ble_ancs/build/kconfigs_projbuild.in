@@ -1,0 +1,6 @@
+source "/Users/andreykorchagin/esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "/Users/andreykorchagin/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/Users/andreykorchagin/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/Users/andreykorchagin/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/Users/andreykorchagin/esp-homekit-sdk/examples/common/app_wifi/Kconfig.projbuild"
+source "/Users/andreykorchagin/Desktop/TERMOSTAT/ble_ancs/main/Kconfig.projbuild"

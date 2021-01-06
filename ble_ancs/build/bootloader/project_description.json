@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/andreykorchagin/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/andreykorchagin/Desktop/TERMOSTAT/ble_ancs/build/bootloader",
+    "config_file":        "/Users/andreykorchagin/Desktop/TERMOSTAT/ble_ancs/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3-dev-2136-gb0150615d",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/andreykorchagin/esp/esp-idf/components/efuse/Kconfig;/Users/andreykorchagin/esp/esp-idf/components/esp32/Kconfig;/Users/andreykorchagin/esp/esp-idf/components/esp_common/Kconfig;/Users/andreykorchagin/esp/esp-idf/components/log/Kconfig;/Users/andreykorchagin/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/andreykorchagin/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/andreykorchagin/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/andreykorchagin/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esptool_py", "hal", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/andreykorchagin/esp/esp-idf/components/bootloader", "/Users/andreykorchagin/esp/esp-idf/components/bootloader_support", "/Users/andreykorchagin/esp/esp-idf/components/efuse", "/Users/andreykorchagin/esp/esp-idf/components/esp32", "/Users/andreykorchagin/esp/esp-idf/components/esp_common", "/Users/andreykorchagin/esp/esp-idf/components/esp_hw_support", "/Users/andreykorchagin/esp/esp-idf/components/esp_rom", "/Users/andreykorchagin/esp/esp-idf/components/esptool_py", "/Users/andreykorchagin/esp/esp-idf/components/hal", "/Users/andreykorchagin/esp/esp-idf/components/log", "/Users/andreykorchagin/esp/esp-idf/components/bootloader/subproject/main", "/Users/andreykorchagin/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/andreykorchagin/esp/esp-idf/components/partition_table", "/Users/andreykorchagin/esp/esp-idf/components/soc", "/Users/andreykorchagin/esp/esp-idf/components/spi_flash", "/Users/andreykorchagin/esp/esp-idf/components/xtensa", "" ]
+}
